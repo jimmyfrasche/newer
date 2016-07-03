@@ -5,10 +5,7 @@ Download:
 ```shell
 go get {{.Import}}
 ```
-{{if .Library}}
-
-Full documentation at http://godoc.org/{{.Import}}
-{{end}}
+If you do not have the go command on your system, you need to [Install Go](http://golang.org/doc/install) first
 * * *
 Usage:
 ```
